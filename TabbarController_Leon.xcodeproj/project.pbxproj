@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCA15093D05793F7D6C8714A /* CVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA15D66CAC73A8516070414 /* CVC.swift */; };
+		FCA154C17C646A4353DC06B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA15E2221B4F445901250F6 /* LaunchScreen.storyboard */; };
+		FCA156B66C24EE58B51D6EEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA153A4DD665A7138D6A283 /* Main.storyboard */; };
+		FCA159B786E5B7C73E81D765 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA15EE9D6AA65DC0A894E88 /* ViewController.swift */; };
+		FCA15B667B2DAFDAE2931556 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCA151DCAC215C4F29A96091 /* Assets.xcassets */; };
+		FCA15DF30919CD8749ED7578 /* CustomTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA1531536CA607E9515ADD0 /* CustomTabbarController.swift */; };
+		FCA15ED9A9194500123F0518 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA1529A2F0C94E5B23C838F /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FCA151DCAC215C4F29A96091 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCA1529A2F0C94E5B23C838F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCA1531536CA607E9515ADD0 /* CustomTabbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabbarController.swift; sourceTree = "<group>"; };
+		FCA15C33846C5786C48B82B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCA15D66CAC73A8516070414 /* CVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVC.swift; sourceTree = "<group>"; };
+		FCA15E4D08EC75BAABCFE871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		FCA15E9CCAF18E0D4F9E0B90 /* TabbarController_Leon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabbarController_Leon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCA15EE9D6AA65DC0A894E88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FCA15F668389C3E30E80C944 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCA153B8C7E33692F6A61E8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCA150B82637946F11654BF9 /* TabbarController_Leon */ = {
+			isa = PBXGroup;
+			children = (
+				FCA15E4D08EC75BAABCFE871 /* Info.plist */,
+				FCA151DCAC215C4F29A96091 /* Assets.xcassets */,
+				FCA15E2221B4F445901250F6 /* LaunchScreen.storyboard */,
+				FCA1529A2F0C94E5B23C838F /* AppDelegate.swift */,
+				FCA153A4DD665A7138D6A283 /* Main.storyboard */,
+				FCA15EE9D6AA65DC0A894E88 /* ViewController.swift */,
+				FCA1531536CA607E9515ADD0 /* CustomTabbarController.swift */,
+				FCA15D66CAC73A8516070414 /* CVC.swift */,
+			);
+			path = TabbarController_Leon;
+			sourceTree = "<group>";
+		};
+		FCA15C6107C67FFC3D36AC6D = {
+			isa = PBXGroup;
+			children = (
+				FCA15E2880DF27191DA6C379 /* Products */,
+				FCA150B82637946F11654BF9 /* TabbarController_Leon */,
+			);
+			sourceTree = "<group>";
+		};
+		FCA15E2880DF27191DA6C379 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCA15E9CCAF18E0D4F9E0B90 /* TabbarController_Leon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCA159CB71D7FE8E770BAE75 /* TabbarController_Leon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCA15D8F600C4AB3F5DDE42E /* Build configuration list for PBXNativeTarget "TabbarController_Leon" */;
+			buildPhases = (
+				FCA159AF705434A0F9F80333 /* Sources */,
+				FCA153B8C7E33692F6A61E8E /* Frameworks */,
+				FCA15DA65B72508A9F4CE4D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabbarController_Leon;
+			productName = TabbarController_Leon;
+			productReference = FCA15E9CCAF18E0D4F9E0B90 /* TabbarController_Leon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCA15BBDD041BE670F61938E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = clem;
+				TargetAttributes = {
+					FCA159CB71D7FE8E770BAE75 = {
+						DevelopmentTeam = FCKB72E74L;
+					};
+				};
+			};
+			buildConfigurationList = FCA15A39ED030AEE397DC5B0 /* Build configuration list for PBXProject "TabbarController_Leon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FCA15C6107C67FFC3D36AC6D;
+			productRefGroup = FCA15E2880DF27191DA6C379 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCA159CB71D7FE8E770BAE75 /* TabbarController_Leon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCA15DA65B72508A9F4CE4D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA15B667B2DAFDAE2931556 /* Assets.xcassets in Resources */,
+				FCA154C17C646A4353DC06B9 /* LaunchScreen.storyboard in Resources */,
+				FCA156B66C24EE58B51D6EEF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCA159AF705434A0F9F80333 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA15ED9A9194500123F0518 /* AppDelegate.swift in Sources */,
+				FCA159B786E5B7C73E81D765 /* ViewController.swift in Sources */,
+				FCA15DF30919CD8749ED7578 /* CustomTabbarController.swift in Sources */,
+				FCA15093D05793F7D6C8714A /* CVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FCA153A4DD665A7138D6A283 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCA15F668389C3E30E80C944 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCA15E2221B4F445901250F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCA15C33846C5786C48B82B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCA151AD60A14A6C14D5F296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCA155D68D7706B6AD7302D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FCKB72E74L;
+				INFOPLIST_FILE = TabbarController_Leon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clem.www.TabbarController-Leon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FCA15C49EB5978D25FB4C522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FCKB72E74L;
+				INFOPLIST_FILE = TabbarController_Leon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clem.www.TabbarController-Leon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCA15DE7AE1C5C2A13FD9699 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCA15A39ED030AEE397DC5B0 /* Build configuration list for PBXProject "TabbarController_Leon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA151AD60A14A6C14D5F296 /* Debug */,
+				FCA15DE7AE1C5C2A13FD9699 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCA15D8F600C4AB3F5DDE42E /* Build configuration list for PBXNativeTarget "TabbarController_Leon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA15C49EB5978D25FB4C522 /* Debug */,
+				FCA155D68D7706B6AD7302D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCA15BBDD041BE670F61938E /* Project object */;
+}
