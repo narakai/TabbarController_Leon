@@ -10,21 +10,21 @@
 		FCA15093D05793F7D6C8714A /* CVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA15D66CAC73A8516070414 /* CVC.swift */; };
 		FCA154C17C646A4353DC06B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA15E2221B4F445901250F6 /* LaunchScreen.storyboard */; };
 		FCA156B66C24EE58B51D6EEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA153A4DD665A7138D6A283 /* Main.storyboard */; };
-		FCA159B786E5B7C73E81D765 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA15EE9D6AA65DC0A894E88 /* ViewController.swift */; };
 		FCA15B667B2DAFDAE2931556 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCA151DCAC215C4F29A96091 /* Assets.xcassets */; };
 		FCA15DF30919CD8749ED7578 /* CustomTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA1531536CA607E9515ADD0 /* CustomTabbarController.swift */; };
 		FCA15ED9A9194500123F0518 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA1529A2F0C94E5B23C838F /* AppDelegate.swift */; };
+		FCA15F2776FB508FF8BA122A /* BVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA1573C52F4D1ABFE0142D6 /* BVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FCA151DCAC215C4F29A96091 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCA1529A2F0C94E5B23C838F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCA1531536CA607E9515ADD0 /* CustomTabbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabbarController.swift; sourceTree = "<group>"; };
+		FCA1573C52F4D1ABFE0142D6 /* BVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BVC.swift; sourceTree = "<group>"; };
 		FCA15C33846C5786C48B82B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCA15D66CAC73A8516070414 /* CVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVC.swift; sourceTree = "<group>"; };
 		FCA15E4D08EC75BAABCFE871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		FCA15E9CCAF18E0D4F9E0B90 /* TabbarController_Leon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabbarController_Leon.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FCA15EE9D6AA65DC0A894E88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FCA15F668389C3E30E80C944 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -47,9 +47,9 @@
 				FCA15E2221B4F445901250F6 /* LaunchScreen.storyboard */,
 				FCA1529A2F0C94E5B23C838F /* AppDelegate.swift */,
 				FCA153A4DD665A7138D6A283 /* Main.storyboard */,
-				FCA15EE9D6AA65DC0A894E88 /* ViewController.swift */,
 				FCA1531536CA607E9515ADD0 /* CustomTabbarController.swift */,
 				FCA15D66CAC73A8516070414 /* CVC.swift */,
+				FCA1573C52F4D1ABFE0142D6 /* BVC.swift */,
 			);
 			path = TabbarController_Leon;
 			sourceTree = "<group>";
@@ -139,9 +139,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCA15ED9A9194500123F0518 /* AppDelegate.swift in Sources */,
-				FCA159B786E5B7C73E81D765 /* ViewController.swift in Sources */,
 				FCA15DF30919CD8749ED7578 /* CustomTabbarController.swift in Sources */,
 				FCA15093D05793F7D6C8714A /* CVC.swift in Sources */,
+				FCA15F2776FB508FF8BA122A /* BVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

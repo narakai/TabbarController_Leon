@@ -28,7 +28,7 @@ class CustomTabbarController: UITabBarController {
         avc.tabBarItem.title = "A"
         avc.tabBarItem.image = UIImage(named: "Game")
 
-        let bvc = CVC(picName: "Game")
+        let bvc = BVC()
         bvc.title = "BVC"
         bvc.tabBarItem.title = "B"
         bvc.tabBarItem.image = UIImage(named: "Home")
